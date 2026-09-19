@@ -1,0 +1,43 @@
+|--- test preparation course_none <= 0.50
+|   |--- parental level of education <= 0.50
+|   |   |--- lunch_standard <= 0.50
+|   |   |   |--- race/ethnicity_group E <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- race/ethnicity_group E >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- lunch_standard >  0.50
+|   |   |   |--- race/ethnicity_group E <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- race/ethnicity_group E >  0.50
+|   |   |   |   |--- class: 1
+|   |--- parental level of education >  0.50
+|   |   |--- gender_male <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- gender_male >  0.50
+|   |   |   |--- parental level of education <= 3.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- parental level of education >  3.50
+|   |   |   |   |--- class: 1
+|--- test preparation course_none >  0.50
+|   |--- lunch_free/reduced <= 0.50
+|   |   |--- parental level of education <= 3.50
+|   |   |   |--- race/ethnicity_group B <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- race/ethnicity_group B >  0.50
+|   |   |   |   |--- class: 0
+|   |   |--- parental level of education >  3.50
+|   |   |   |--- race/ethnicity_group C <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- race/ethnicity_group C >  0.50
+|   |   |   |   |--- class: 1
+|   |--- lunch_free/reduced >  0.50
+|   |   |--- parental level of education <= 3.50
+|   |   |   |--- gender_male <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- gender_male >  0.50
+|   |   |   |   |--- class: 0
+|   |   |--- parental level of education >  3.50
+|   |   |   |--- race/ethnicity_group D <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- race/ethnicity_group D >  0.50
+|   |   |   |   |--- class: 0
