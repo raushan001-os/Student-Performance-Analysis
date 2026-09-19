@@ -187,17 +187,3 @@ CSV raw
 ## Licencia
 
 MIT — libre para uso académico y proyectos personales.
-
----
-
-## Power BI Dashboard
-
-The project also includes a Power BI dashboard for interactive student-performance analysis.
-
-See the `powerbi/` folder for:
-- Power BI-ready Excel data
-- Project data package
-- Dashboard screenshots
-- DAX calculated fields and dashboard documentation
-
-Open the actual `.pbix` dashboard with **Power BI Desktop**; VS Code is used for the source-code project and supporting files.
